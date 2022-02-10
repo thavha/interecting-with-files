@@ -1,0 +1,18 @@
+curl to consume API - Git hub repo
+
+
+curl -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/Thavha/smart-taxi/pulls
+
+
+curl -u "Thavha:duthuni1" -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/Thavha/Umuzi-org/Thavha-Tsiwana-266-string-calculator-python/pulls
+
+
+curl -u "Thavha:duthuni1" -X GET https://api.github.com/repos/Thavha/Umuzi-org/Thavha-Tsiwana-266-string-calculator-python/pulls
+
+
+curl https://api.github.com/authorizations --user "Thavha" --data '{"scopes":["test"],"note":"Demo"}'
+
+
+
+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
+ 
